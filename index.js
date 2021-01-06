@@ -70,7 +70,7 @@ function orderIntent(){
         }
     }).catch(() => {
         agent.add("Error");
-    })
+    });
     
 }
 
